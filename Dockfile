@@ -14,3 +14,10 @@ las peticiones a las api debe ser con el modulo HttpClientModule form '@angular/
 
 https://www.youtube.com/watch?v=i-oYrcNtc2s&t
 1:11
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Egue/clases-angular.git
+git push -u origin main
