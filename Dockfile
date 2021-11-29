@@ -1,0 +1,16 @@
+npm install @angular/cli
+
+documentation for create new project
+
+#create component
+ng generate component pages/supergiros
+#create modulos 
+ng g m pages/supergiros -m=app --route supergiros
+genera un modulo cargado en la app principal y un route para el modulo supergiros
+#creación de services
+ng g service pages/supergiros/services/pagos
+
+las peticiones a las api debe ser con el modulo HttpClientModule form '@angular/common/http'
+
+https://www.youtube.com/watch?v=i-oYrcNtc2s&t
+1:11
