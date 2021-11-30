@@ -1,5 +1,5 @@
 import { FooterComponent } from './shared/components/footer/footer.component';
-import { PrimefaceModule } from './primeface.module';
+import { MaterialModule } from './material.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './shared/components/header/header.component';
 import {HttpClientModule} from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SidebarModule } from './shared/components/sidebar/sidebar.module'; 
 
 @NgModule({
   declarations: [
@@ -19,8 +21,10 @@ import {HttpClientModule} from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    PrimefaceModule,
-    HttpClientModule
+    MaterialModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    SidebarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

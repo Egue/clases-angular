@@ -1,4 +1,12 @@
-<p-toolbar>
-    <h3>IntInalambrico-App</h3>
-</p-toolbar>
+ 
 
+
+<mat-toolbar color="primary">
+    <span>IntInalambrico-App</span>
+    <span class="spacer"></span>
+    <div>
+        <a mat-button [routerLink]="'/login'">Login</a>
+        <a mat-button >Logout</a>
+        <a mat-button [routerLink]="'/admin'">Admin</a> 
+    </div>
+</mat-toolbar>
